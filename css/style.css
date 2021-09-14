@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #b91450;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.wrapper {
+    margin: auto;
+    max-width: 1180px;
+    padding: 10px;
+}
+
+/* TYP  */
+h1, h2 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 30px;
+    margin-top: 15px;
+}
+/* MIX  */
+
+.ticket-input {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #444;
+}
+.row {
+    display: flex;
+    justify-content: center;   
+    padding-bottom: 30px;     
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+label {
+    color: #b91450;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+input, select {
+    height: 25px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #b91450;
+    color: #b91450;
+    text-align: center;
+}
+input::placeholder {
+    font-size: 14px;
+    color: #b91450;
+    text-align: center;
+}
+input:focus, select:focus {
+    background-color: #b91450;
+    color: #fff;
+    text-align: center;
+}
+input:focus::placeholder {
+    color: #fff;
+}
+.btn {
+    padding: 5px 10px;
+    min-width: 150px;
+    background-color: lightgray;
+    color: #b91450;
+    font-weight: bold;
+    margin-right: 20px;
+    border-radius: 5px;
+    border-color: grey;
+    border-style: solid;
+    font-size: 20px;
+}
+.btn:hover {
+background-color: #b91450;
+color: #fff;
+}
+#ticket-output {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px 15px;       
+}
+.passenger-detail {
+    background-color: grey;
+    font-size: 18px;
+    font-weight: bold;
+    width: 30%;
+    padding: 10px 0;
+}
+#passenger-name {
+    font-weight: 700;
+    font-style: italic;       
+}
+.passenger-summary {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    width: 70%;
+}
+table {
+    width: 100%;
+    padding: 10px 0;
+}
+#dettaglio {
+    text-align: center;
+    width: 30%;
+    letter-spacing: 5px;   
+}
+.hidden {
+    opacity: 0;    
+    transition: opacity 1s;
+}
+.show {
+    opacity: 1;
+}
+
+    
