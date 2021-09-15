@@ -26,7 +26,7 @@ function(){
         var offerta = "Standard Traveller"
     }
     var prezzoBiglietto = (prezzoKm * kmTratta - (prezzoKm * kmTratta * sconto / 100)).toFixed(2);
-    var generaCarrozza = Math.floor(Math.random() * 1000)+90000;
+    var generaCarrozza = Math.floor(Math.random() * 9)+1;
     var generaCodice = Math.floor(Math.random() * 1000)+90000;
     console.log("Il prezzo calcolato è " + prezzoBiglietto + " €")
     document.getElementById("passenger-name").innerHTML = nome + " " + cognome;
